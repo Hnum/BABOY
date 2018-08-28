@@ -1,1 +1,3 @@
-# anjing
+# SEMUA AKAN MATI PADA WAKTUNTA
+
+# PLEASE WAIT..
