@@ -278,7 +278,7 @@ def mentionMembers(to, mid):
             textx += mention
             if no < len(mid):
                 no += 1
-                textx += "「✭」{}. ".format(str(no))
+                textx += "「🕴」{}. ".format(str(no))
             else:
                 textx += "\n「 Total {} Member 」".format(str(len(mid)))
         cl.sendMessage(to, textx, {'MENTION': str('{"MENTIONEES":' + json.dumps(arr) + '}')}, 0)
@@ -288,7 +288,7 @@ def mentionMembers(to, mid):
 def siderMembers(to, mid):
     try:
         arrData = ""
-        textx = "「 Tukang {} Sider 」\nHaii ".format(str(len(mid)))
+        textx = "「 Tersangka {} Sider 」\nHaii ".format(str(len(mid)))
         arr = []
         no = 1
         num = 2
@@ -315,7 +315,7 @@ def siderMembers(to, mid):
 def welcomeMembers(to, mid):
     try:
         arrData = ""
-        textx = "「 Auto Welcome 」\nHallo ".format(str(len(mid)))
+        textx = "「 Welcome Message 」\nHallo ".format(str(len(mid)))
         arr = []
         no = 1
         num = 2
