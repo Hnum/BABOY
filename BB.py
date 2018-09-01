@@ -22,14 +22,14 @@ lineSettings = cl.getSettings()
 mid = cl.getProfile().mid
 responsename1 = cl.getProfile().displayName
 
-#ki = LineClient(authToken='EvLV2qK6lkJPBWBvOXI6.YFTivvUQlJGyQ0q4WC5f5G.W7Tvs5t4FOLfP6L3/nJNrEDbhXC0lnpP62zUqAfszr8=')
-#ki.log("Auth Token : " + str(ki.authToken))
-#channel1 = LineChannel(ki)
-#ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
-#lineProfile = ki.getProfile()
-#lineSettings = ki.getSettings()
-#Amid = ki.getProfile().mid
-#responsename2 = ki.getProfile().displayName
+ki = LineClient(authToken='Ew3suxwI9rVEx3WWq3Ae.E3cvB3/EuaSbgNgItOaD+G.ziugTcQFH6jDu0raGf6h0KXJsxexB6fQLTqKdDCGtps=')
+ki.log("Auth Token : " + str(ki.authToken))
+channel1 = LineChannel(ki)
+ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
+lineProfile = ki.getProfile()
+lineSettings = ki.getSettings()
+Amid = ki.getProfile().mid
+responsename2 = ki.getProfile().displayName
 
 #kk = LineClient(authToken='Evgzt2YDGu5j8fI6S7y0.HekonXOId0LOrlrdV8suWa.Za9/BK3lzl/gXPpsb+8XV/NuwKNbdF6FWPfC2rPf9j0=')
 #kk.log("Auth Token : " + str(kk.authToken))
@@ -83,9 +83,9 @@ owner = ["u31d8aba9dff04c75242f2a2097b8adae"]
 admin = ["u31d8aba9dff04c75242f2a2097b8adae","ub0ff92e9820f6b82a2f0b81d6758c2fb"]
 staff = ["u31d8aba9dff04c75242f2a2097b8adae","ub0ff92e9820f6b82a2f0b81d6758c2fb"]
 
-KAC = [cl,sw] #,ki,kk,kc,km,kb]
-ABC = [cl,sw] #ki,kk,kc,km,kb]
-Bots = [mid,Zmid] #,Amid,Bmid,Cmid,Dmid,Emid,Zmid]
+KAC = [cl,ki,sw] #kk,kc,km,kb]
+ABC = [cl,ki,sw] #kk,kc,km,kb]
+Bots = [mid,Amid,Zmid] #Bmid,Cmid,Dmid,Emid,Zmid]
 Saints = admin + staff
 
 protectqr = []
