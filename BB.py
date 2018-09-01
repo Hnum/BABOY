@@ -80,8 +80,8 @@ print("---LOGIN SUCCES---")
 
 creator = ["u31d8aba9dff04c75242f2a2097b8adae"]
 owner = ["u31d8aba9dff04c75242f2a2097b8adae"]
-admin = ["u31d8aba9dff04c75242f2a2097b8adae"]
-staff = ["u31d8aba9dff04c75242f2a2097b8adae"]
+admin = ["u31d8aba9dff04c75242f2a2097b8adae","ub0ff92e9820f6b82a2f0b81d6758c2fb"]
+staff = ["u31d8aba9dff04c75242f2a2097b8adae","ub0ff92e9820f6b82a2f0b81d6758c2fb"]
 
 KAC = [cl,sw] #,ki,kk,kc,km,kb]
 ABC = [cl,sw] #ki,kk,kc,km,kb]
